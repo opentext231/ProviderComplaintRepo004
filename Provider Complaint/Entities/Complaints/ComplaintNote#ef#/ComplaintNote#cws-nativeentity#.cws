@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -47,7 +49,7 @@
 	<OwnedBuildingBlocks>
 		<SecurityBuildingBlock
 			type="com.cordys.entity.buildingblocks.security.SecurityBuildingBlock"
-			typeVersion="E6399B50-B4CA-4A3B-B58F-BD56B1BDFEA2"
+			typeVersion="6294039D-E23A-48B1-8047-1C7EFC55AF03"
 			RuntimeDocumentID="030621a6-72ea-3f18-b8f2-94c88445d3dc">
 			<DocumentID>005056A5-1B45-A1EB-B1F0-C1AF181AA324</DocumentID>
 			<Name>Security</Name>
@@ -152,64 +154,6 @@
 									<identity>
 										<uri
 											id="005056A5-1B45-A1EB-A6F6-868EF4F66320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-BC47-0818C0AC2324">
-									<DocumentID>005056A5-1B45-A1EB-BC47-0818C0ABE324</DocumentID>
-									<Name>005056A5-1B45-A1EB-BC47-0818C0ABE324</Name>
-									<Description>005056A5-1B45-A1EB-BC47-0818C0ABE324</Description>
-									<CreatedBy>pdoshi@solusofttech.com</CreatedBy>
-									<CreationDate>2021-07-30T10:18:56.115</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B1F6-6C1A5FF8E324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-BC47-0818C0ABA324">
-											<DocumentID>005056A5-1B45-A1EB-BC47-0818C0AB6324</DocumentID>
-											<Name>005056A5-1B45-A1EB-BC47-0818C0AB6324</Name>
-											<Description>005056A5-1B45-A1EB-BC47-0818C0AB6324</Description>
-											<CreatedBy>pdoshi@solusofttech.com</CreatedBy>
-											<CreationDate>2021-07-30T10:18:56.115</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="781880BC-9998-452B-9754-41EA7FEA0B74"
-												/>
-											</right>
-										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-BC47-0818C0AAA324">
-											<DocumentID>005056A5-1B45-A1EB-BC47-0818C0AA6324</DocumentID>
-											<Name>005056A5-1B45-A1EB-BC47-0818C0AA6324</Name>
-											<Description>005056A5-1B45-A1EB-BC47-0818C0AA6324</Description>
-											<CreatedBy>pdoshi@solusofttech.com</CreatedBy>
-											<CreationDate>2021-07-30T10:18:56.115</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="3FA03A89-6A27-49F9-AA39-526159972EC2"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
 										/>
 									</identity>
 									<rights/>
@@ -2431,11 +2375,7 @@
 									<CreatedBy>pdoshi@solusofttech.com</CreatedBy>
 									<CreationDate>2021-07-30T10:18:56.115</CreationDate>
 									<Notes/>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
+									<identity/>
 									<securityDescriptor>
 										<uri
 											id="005056A5-1B45-A1EB-B1F0-C1AF1819A324"
@@ -2537,7 +2477,7 @@
 									<expression>
 										<EntityExpression
 											type="com.cordys.entity.services.entityexpression.EntityExpression"
-											typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+											typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 											RuntimeDocumentID="005056A5-1B45-A1EB-BCE3-1CA730D5E324">
 											<DocumentID>005056A5-1B45-A1EB-BCE3-1CA730D5A324</DocumentID>
 											<Name>AllowForItemCreate</Name>
@@ -2613,7 +2553,7 @@
 									<expression>
 										<EntityExpression
 											type="com.cordys.entity.services.entityexpression.EntityExpression"
-											typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+											typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 											RuntimeDocumentID="005056A5-1B45-A1EB-BCE3-1CA730D12324">
 											<DocumentID>005056A5-1B45-A1EB-BCE3-1CA730D0E324</DocumentID>
 											<Name>AllowUpdateForCreator</Name>

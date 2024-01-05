@@ -19,6 +19,7 @@
 	<IsPreviewLayout>false</IsPreviewLayout>
 	<LayoutPanelType>FitToScreen</LayoutPanelType>
 	<LayoutType>1</LayoutType>
+	<ShowFirstTab>false</ShowFirstTab>
 	<ActionBarAssociations/>
 	<BuildingBlock/>
 	<CustomActions/>
@@ -47,7 +48,7 @@
 	<LayoutPanels>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="1FCC367D-DD5A-4E9C-8B4A-24BA4845ECB6"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="005056A5-1B45-A1EB-A9DB-1379BE0FA320">
 			<DocumentID>005056A5-1B45-A1EB-A9DB-1379BE0F6320</DocumentID>
 			<Name>Results</Name>
@@ -84,6 +85,7 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation>
 				<uri
@@ -91,10 +93,11 @@
 				/>
 			</WorklistAssociation>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="1FCC367D-DD5A-4E9C-8B4A-24BA4845ECB6"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="005056A5-1B45-A1EB-A9DB-1379BE0AE320">
 			<DocumentID>005056A5-1B45-A1EB-A9DB-1379BE0AA320</DocumentID>
 			<Name>Preview</Name>
@@ -113,13 +116,15 @@
 			<IHubPanelConfiguration/>
 			<LayoutAssociation/>
 			<LocalizableDisplayName/>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="1FCC367D-DD5A-4E9C-8B4A-24BA4845ECB6"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="005056A5-1B45-A1EB-A9DB-1379BE0A6320">
 			<DocumentID>005056A5-1B45-A1EB-A9DB-1379BE0A2320</DocumentID>
 			<Name>Results1</Name>
@@ -156,6 +161,7 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation>
 				<uri
@@ -163,10 +169,11 @@
 				/>
 			</WorklistAssociation>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="1FCC367D-DD5A-4E9C-8B4A-24BA4845ECB6"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="005056A5-1B45-A1EB-AA10-47C2614E6320">
 			<DocumentID>005056A5-1B45-A1EB-AA10-47C2614E2320</DocumentID>
 			<Name>Results2</Name>
@@ -203,6 +210,7 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation>
 				<uri
@@ -210,10 +218,11 @@
 				/>
 			</WorklistAssociation>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="1FCC367D-DD5A-4E9C-8B4A-24BA4845ECB6"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="005056A5-1B45-A1EB-AC6E-3381C91EE321">
 			<DocumentID>005056A5-1B45-A1EB-AC6E-3381C91EA321</DocumentID>
 			<Name>Results3</Name>
@@ -250,6 +259,7 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation>
 				<uri
@@ -257,10 +267,11 @@
 				/>
 			</WorklistAssociation>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="1FCC367D-DD5A-4E9C-8B4A-24BA4845ECB6"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="005056A5-1B45-A1EB-ACAE-9A4A07CE6322">
 			<DocumentID>005056A5-1B45-A1EB-ACAE-9A4A07CE2322</DocumentID>
 			<Name>Results4</Name>
@@ -297,6 +308,7 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation>
 				<uri
@@ -304,6 +316,7 @@
 				/>
 			</WorklistAssociation>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 	</LayoutPanels>
 	<Original/>
@@ -439,47 +452,6 @@
 					<identity>
 						<uri
 							id="005056A5-1B45-A1EB-9EE7-EB7A8D6A231D"
-						/>
-					</identity>
-					<rights/>
-				</ACE>
-				<ACE
-					type="com.cordys.acl.ACE"
-					typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-					RuntimeDocumentID="005056A5-1B45-A1EB-A9DF-9129A399A320">
-					<DocumentID>005056A5-1B45-A1EB-A9DF-9129A3996320</DocumentID>
-					<Name>005056A5-1B45-A1EB-A9DF-9129A3996320</Name>
-					<Description>005056A5-1B45-A1EB-A9DF-9129A3996320</Description>
-					<CreatedBy>Andrew.Acheson@dmhc.ca.gov</CreatedBy>
-					<CreationDate>2021-04-27T17:32:03.716</CreationDate>
-					<Notes/>
-					<Model>
-						<uri
-							id="005056A5-1B45-A1EB-A9DB-1379BE12E320"
-						/>
-					</Model>
-					<applicableRights>
-						<ApplicableRight
-							type="com.cordys.acl.ApplicableRight"
-							RuntimeDocumentID="005056A5-1B45-A1EB-A9DF-9129A3912320">
-							<DocumentID>005056A5-1B45-A1EB-A9DF-9129A390E320</DocumentID>
-							<Name>005056A5-1B45-A1EB-A9DF-9129A390E320</Name>
-							<Description>005056A5-1B45-A1EB-A9DF-9129A390E320</Description>
-							<CreatedBy>Andrew.Acheson@dmhc.ca.gov</CreatedBy>
-							<CreationDate>2021-04-27T17:40:22.249</CreationDate>
-							<Notes/>
-							<revoked>false</revoked>
-							<condition/>
-							<right>
-								<uri
-									id="947D49A7-966A-4739-9E21-C9C67E09D1B3"
-								/>
-							</right>
-						</ApplicableRight>
-					</applicableRights>
-					<identity>
-						<uri
-							id="005056A5-1B45-A1EB-A7B4-BB8973106320"
 						/>
 					</identity>
 					<rights/>
@@ -637,11 +609,7 @@
 					<CreatedBy>Andrew.Acheson@dmhc.ca.gov</CreatedBy>
 					<CreationDate>2021-04-27T17:32:03.716</CreationDate>
 					<Notes/>
-					<identity>
-						<uri
-							id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-						/>
-					</identity>
+					<identity/>
 					<securityDescriptor>
 						<uri
 							id="005056A5-1B45-A1EB-A9DF-9129A39FE320"

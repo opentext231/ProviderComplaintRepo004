@@ -36,7 +36,7 @@
 	</SecurityDescriptor>
 	<SourceFolder>
 		<uri
-			id="005056A5-1B45-A1EB-B2A9-26747571E324"
+			id="28DFEB6B-98A5-A1EE-AAE8-5668E13F89E2"
 			path="Provider Complaint/XML"
 			type="com.cordys.cws.runtime.types.folder.StudioFolder"
 		/>

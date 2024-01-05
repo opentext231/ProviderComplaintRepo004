@@ -11,15 +11,20 @@
 	<CreationDate>2021-06-14T22:38:55.504</CreationDate>
 	<Notes/>
 	<ActionLogged>false</ActionLogged>
+	<ActionOnSingleItem>false</ActionOnSingleItem>
 	<ActionSignedByUser>false</ActionSignedByUser>
 	<AllowChangesFromAnotherEntity>0</AllowChangesFromAnotherEntity>
 	<BusinessProcessReference></BusinessProcessReference>
 	<BusinessProcessReferenceName></BusinessProcessReferenceName>
 	<ButtonVisibility></ButtonVisibility>
 	<CreateNewRuleManagerId>true</CreateNewRuleManagerId>
+	<CustomizeDimensionsOfRuleDialog>false</CustomizeDimensionsOfRuleDialog>
+	<CustomizeHeightOfRuleDialog></CustomizeHeightOfRuleDialog>
+	<CustomizeWidthOfRuleDialog></CustomizeWidthOfRuleDialog>
 	<DefaultToAdvancedMode>0</DefaultToAdvancedMode>
 	<EnabledOnError>0</EnabledOnError>
 	<Expression></Expression>
+	<HideHeaderFooterOnRuleDialog>false</HideHeaderFooterOnRuleDialog>
 	<IsRuleValid>1</IsRuleValid>
 	<PostRuleActionOption>0</PostRuleActionOption>
 	<PostRuleUrl></PostRuleUrl>
@@ -46,11 +51,12 @@
 	<RuleActionLayout/>
 	<RuleActionMessage/>
 	<RuleActionTargetCategory/>
+	<RuleActionTargetCategoryPath/>
 	<RuleActionTargetProperty/>
 	<RuleEntityExpression>
 		<EntityExpression
 			type="com.cordys.entity.services.entityexpression.EntityExpression"
-			typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 			RuntimeDocumentID="005056A5-1B45-A1EB-B357-83EE8312E324">
 			<DocumentID>005056A5-1B45-A1EB-B357-83EE8312A324</DocumentID>
 			<Name>ruleEntityExpression</Name>
@@ -81,15 +87,11 @@
 		</EntityExpression>
 	</RuleEntityExpression>
 	<RuleProperties/>
-	<RuleRelationship>
-		<uri
-			id="005056A5-1B45-A1EB-B121-12C243532324"
-		/>
-	</RuleRelationship>
+	<RuleRelationship/>
 	<RuleSetSourceEntityExpression>
 		<EntityExpression
 			type="com.cordys.entity.services.entityexpression.EntityExpression"
-			typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 			RuntimeDocumentID="005056A5-1B45-A1EB-B357-83EE8311E324">
 			<DocumentID>005056A5-1B45-A1EB-B357-83EE8311A324</DocumentID>
 			<Name>ruleSetSourceEntityExpression</Name>
@@ -127,38 +129,7 @@
 					<CreationDate>2021-06-14T22:38:55.504</CreationDate>
 					<Notes/>
 					<NumberOfIntermediateRelationships>2</NumberOfIntermediateRelationships>
-					<IntermediateRelationships>
-						<RelationshipReference
-							type="com.cordys.entity.core.objectpath.RelationshipReference"
-							RuntimeDocumentID="005056A5-1B45-A1EB-B357-83EE830FA324">
-							<DocumentID>005056A5-1B45-A1EB-B357-83EE830F6324</DocumentID>
-							<Name>005056A5-1B45-A1EB-B357-83EE830F6324</Name>
-							<Description>005056A5-1B45-A1EB-B357-83EE830F6324</Description>
-							<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-							<CreationDate>2021-06-14T22:38:55.504</CreationDate>
-							<Notes/>
-							<Relationship>
-								<uri
-									id="005056A5-1B45-A1EB-B121-12C243532324"
-								/>
-							</Relationship>
-						</RelationshipReference>
-						<RelationshipReference
-							type="com.cordys.entity.core.objectpath.RelationshipReference"
-							RuntimeDocumentID="005056A5-1B45-A1EB-B357-83EE830F2324">
-							<DocumentID>005056A5-1B45-A1EB-B357-83EE830EE324</DocumentID>
-							<Name>005056A5-1B45-A1EB-B357-83EE830EE324</Name>
-							<Description>005056A5-1B45-A1EB-B357-83EE830EE324</Description>
-							<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-							<CreationDate>2021-06-14T22:38:55.504</CreationDate>
-							<Notes/>
-							<Relationship>
-								<uri
-									id="005056A5-1B45-A1EB-A752-23CCF1C92320"
-								/>
-							</Relationship>
-						</RelationshipReference>
-					</IntermediateRelationships>
+					<IntermediateRelationships/>
 					<Object>
 						<uri
 							id="005056A5-1B45-A1EB-B357-83EE8311A324"
@@ -174,11 +145,7 @@
 							id="005056A5-1B45-A1EB-B120-6401C147E324"
 						/>
 					</PathBegin>
-					<PathEnd>
-						<uri
-							id="005056A5-1B45-A1EB-A74F-3FE5F1366320"
-						/>
-					</PathEnd>
+					<PathEnd/>
 					<RootOwner>
 						<uri
 							id="005056A5-1B45-A1EB-B120-6401C147E324"
@@ -191,7 +158,7 @@
 	<RuleSetTargetEntityExpression>
 		<EntityExpression
 			type="com.cordys.entity.services.entityexpression.EntityExpression"
-			typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 			RuntimeDocumentID="005056A5-1B45-A1EB-B357-83EE83126324">
 			<DocumentID>005056A5-1B45-A1EB-B357-83EE83122324</DocumentID>
 			<Name>ruleSetTargetEntityExpression</Name>

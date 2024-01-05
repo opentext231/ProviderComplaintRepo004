@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -1010,7 +1012,7 @@
 		</PropertyBuildingBlock>
 		<SecurityBuildingBlock
 			type="com.cordys.entity.buildingblocks.security.SecurityBuildingBlock"
-			typeVersion="E6399B50-B4CA-4A3B-B58F-BD56B1BDFEA2"
+			typeVersion="6294039D-E23A-48B1-8047-1C7EFC55AF03"
 			RuntimeDocumentID="537b9c1c-c200-36a8-8560-1b371d640d00">
 			<DocumentID>005056A5-1B45-A1EB-B4ED-1E927744A324</DocumentID>
 			<Name>Security</Name>
@@ -1859,494 +1861,6 @@
 								<ACE
 									type="com.cordys.acl.ACE"
 									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D96324">
-									<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D92324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B510-A9C8F7D92324</Name>
-									<Description>005056A5-1B45-A1EB-B510-A9C8F7D92324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-06-23T16:47:43.789</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B4ED-1E9277442324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D82324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D7E324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7D7E324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7D7E324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.79</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="01cc5f17-1d0c-418c-8b8b-8ea7e651dfe5"
-												/>
-											</right>
-										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7CBA324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7CB6324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7CB6324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7CB6324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.791</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="69839B90-BC28-49D3-BA0A-6020D02E74D1"
-												/>
-											</right>
-										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7CB2324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7CAE324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7CAE324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7CAE324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.793</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="4AE6FB18-3BB4-44E8-B58D-8240F205DC4E"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D7A324">
-									<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D76324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B510-A9C8F7D76324</Name>
-									<Description>005056A5-1B45-A1EB-B510-A9C8F7D76324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-06-23T16:47:43.791</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B4ED-1E92773AE324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D72324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D6E324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7D6E324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7D6E324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.794</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="4F875FFA-27EC-4A44-AF9B-24FA660006FC"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D6A324">
-									<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D66324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B510-A9C8F7D66324</Name>
-									<Description>005056A5-1B45-A1EB-B510-A9C8F7D66324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-06-23T16:47:43.792</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B50F-4E86816D6324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D62324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D5E324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7D5E324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7D5E324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.792</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="a6240594-3cc7-455f-a71a-94c13251b778"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D5A324">
-									<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D56324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B510-A9C8F7D56324</Name>
-									<Description>005056A5-1B45-A1EB-B510-A9C8F7D56324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-06-23T16:47:43.79</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B50F-4E8681752324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D52324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D4E324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7D4E324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7D4E324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.791</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="a6240594-3cc7-455f-a71a-94c13251b778"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D4A324">
-									<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D46324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B510-A9C8F7D46324</Name>
-									<Description>005056A5-1B45-A1EB-B510-A9C8F7D46324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-06-23T16:47:43.792</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B4ED-1E927747A324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D42324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D3E324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7D3E324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7D3E324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.791</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="313F0D45-E7A4-4FDD-8B0C-F14FA6049488"
-												/>
-											</right>
-										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7CEA324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7CE6324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7CE6324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7CE6324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.793</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="5005A365-CB82-41C2-9A1F-5F28D15689CC"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D3A324">
-									<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D36324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B510-A9C8F7D36324</Name>
-									<Description>005056A5-1B45-A1EB-B510-A9C8F7D36324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-06-23T16:47:43.792</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B4ED-0183E511A324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D32324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D2E324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7D2E324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7D2E324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.793</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="313F0D45-E7A4-4FDD-8B0C-F14FA6049488"
-												/>
-											</right>
-										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7CE2324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7CDE324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7CDE324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7CDE324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.79</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="5005A365-CB82-41C2-9A1F-5F28D15689CC"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D1A324">
-									<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D16324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B510-A9C8F7D16324</Name>
-									<Description>005056A5-1B45-A1EB-B510-A9C8F7D16324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-06-23T16:47:43.789</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B4ED-0183E50D2324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D12324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D0E324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7D0E324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7D0E324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.794</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="313F0D45-E7A4-4FDD-8B0C-F14FA6049488"
-												/>
-											</right>
-										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7CD2324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7CCE324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7CCE324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7CCE324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.789</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="5005A365-CB82-41C2-9A1F-5F28D15689CC"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D0A324">
-									<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7D06324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B510-A9C8F7D06324</Name>
-									<Description>005056A5-1B45-A1EB-B510-A9C8F7D06324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-06-23T16:47:43.793</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B4ED-1E9277422324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7D02324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7CFE324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7CFE324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7CFE324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.789</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="3FA03A89-6A27-49F9-AA39-526159972EC2"
-												/>
-											</right>
-										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7CCA324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7CC6324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7CC6324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7CC6324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.791</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="781880BC-9998-452B-9754-41EA7FEA0B74"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7CFA324">
-									<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7CF6324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B510-A9C8F7CF6324</Name>
-									<Description>005056A5-1B45-A1EB-B510-A9C8F7CF6324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-06-23T16:47:43.793</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B4ED-1E9277402324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7CF2324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7CEE324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7CEE324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7CEE324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.79</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="3FA03A89-6A27-49F9-AA39-526159972EC2"
-												/>
-											</right>
-										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B510-A9C8F7CC2324">
-											<DocumentID>005056A5-1B45-A1EB-B510-A9C8F7CBE324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B510-A9C8F7CBE324</Name>
-											<Description>005056A5-1B45-A1EB-B510-A9C8F7CBE324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-06-23T16:47:43.794</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="781880BC-9998-452B-9754-41EA7FEA0B74"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
 									RuntimeDocumentID="005056A5-1B45-A1EB-B8CF-866C31DCE324">
 									<DocumentID>005056A5-1B45-A1EB-B8CF-866C31DCA324</DocumentID>
 									<Name>005056A5-1B45-A1EB-B8CF-866C31DCA324</Name>
@@ -2439,64 +1953,6 @@
 									<identity>
 										<uri
 											id="005056A5-1B45-A1EB-A6F6-868EF4F66320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B8CF-866C31D86324">
-									<DocumentID>005056A5-1B45-A1EB-B8CF-866C31D82324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B8CF-866C31D82324</Name>
-									<Description>005056A5-1B45-A1EB-B8CF-866C31D82324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-07-12T18:23:29.293</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B8C9-679C80A02324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B8CF-866C31D7E324">
-											<DocumentID>005056A5-1B45-A1EB-B8CF-866C31D7A324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B8CF-866C31D7A324</Name>
-											<Description>005056A5-1B45-A1EB-B8CF-866C31D7A324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-07-12T18:23:29.293</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="313F0D45-E7A4-4FDD-8B0C-F14FA6049488"
-												/>
-											</right>
-										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B8CF-866C31D76324">
-											<DocumentID>005056A5-1B45-A1EB-B8CF-866C31D72324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B8CF-866C31D72324</Name>
-											<Description>005056A5-1B45-A1EB-B8CF-866C31D72324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-07-12T18:23:29.293</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="5005A365-CB82-41C2-9A1F-5F28D15689CC"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
 										/>
 									</identity>
 									<rights/>
@@ -2665,88 +2121,6 @@
 									</identity>
 									<rights/>
 								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B906-0F240C7FE324">
-									<DocumentID>005056A5-1B45-A1EB-B906-0F240C7FA324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B906-0F240C7FA324</Name>
-									<Description>005056A5-1B45-A1EB-B906-0F240C7FA324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-07-13T21:34:58.652</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B905-C11D5C512324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B906-0F240C7F6324">
-											<DocumentID>005056A5-1B45-A1EB-B906-0F240C7F2324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B906-0F240C7F2324</Name>
-											<Description>005056A5-1B45-A1EB-B906-0F240C7F2324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-07-13T21:34:58.652</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="a6240594-3cc7-455f-a71a-94c13251b778"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
-								<ACE
-									type="com.cordys.acl.ACE"
-									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
-									RuntimeDocumentID="005056A5-1B45-A1EB-B906-0F240C7EE324">
-									<DocumentID>005056A5-1B45-A1EB-B906-0F240C7EA324</DocumentID>
-									<Name>005056A5-1B45-A1EB-B906-0F240C7EA324</Name>
-									<Description>005056A5-1B45-A1EB-B906-0F240C7EA324</Description>
-									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-									<CreationDate>2021-07-13T21:34:58.652</CreationDate>
-									<Notes/>
-									<Model>
-										<uri
-											id="005056A5-1B45-A1EB-B8CF-866C31D02324"
-										/>
-									</Model>
-									<applicableRights>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="005056A5-1B45-A1EB-B906-0F240C7E6324">
-											<DocumentID>005056A5-1B45-A1EB-B906-0F240C7E2324</DocumentID>
-											<Name>005056A5-1B45-A1EB-B906-0F240C7E2324</Name>
-											<Description>005056A5-1B45-A1EB-B906-0F240C7E2324</Description>
-											<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-											<CreationDate>2021-07-13T21:34:58.652</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="a6240594-3cc7-455f-a71a-94c13251b778"
-												/>
-											</right>
-										</ApplicableRight>
-									</applicableRights>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
-									<rights/>
-								</ACE>
 							</accesscontrolentries>
 							<accesscontrollists>
 								<AccessControlList
@@ -2798,11 +2172,7 @@
 									<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
 									<CreationDate>2021-06-23T16:47:43.793</CreationDate>
 									<Notes/>
-									<identity>
-										<uri
-											id="005056A5-1B45-A1EB-A7B4-BB8973106320"
-										/>
-									</identity>
+									<identity/>
 									<securityDescriptor>
 										<uri
 											id="005056A5-1B45-A1EB-B4ED-1E927743A324"
@@ -2825,6 +2195,7 @@
 		</SecurityBuildingBlock>
 		<TrackingBuildingBlock
 			type="com.cordys.entity.buildingblocks.tracking.TrackingBuildingBlock"
+			typeVersion="E71CDA2C-7846-4CDA-BCB3-A75D3AD4A9FE"
 			RuntimeDocumentID="005056A5-1B45-A1EB-B4ED-1E9277436324">
 			<DocumentID>005056A5-1B45-A1EB-B4ED-1E9277432324</DocumentID>
 			<Name>Tracking</Name>
@@ -2876,11 +2247,7 @@
 							<CreationDate>2021-06-22T23:54:09.69</CreationDate>
 							<Notes/>
 							<DeveloperText>Created Date</DeveloperText>
-							<Identifier>
-								<uri
-									id="005056A5-1B45-A1EB-A7B6-B0C1D81EA320"
-								/>
-							</Identifier>
+							<Identifier/>
 						</TranslatableText>
 					</DisplayName>
 					<OwnedTypeDefinition>
@@ -2942,11 +2309,7 @@
 							<CreationDate>2021-06-22T23:54:09.698</CreationDate>
 							<Notes/>
 							<DeveloperText>Last Modified Date</DeveloperText>
-							<Identifier>
-								<uri
-									id="005056A5-1B45-A1EB-A7B6-B0C1D81C2320"
-								/>
-							</Identifier>
+							<Identifier/>
 						</TranslatableText>
 					</DisplayName>
 					<OwnedTypeDefinition>
@@ -3008,11 +2371,7 @@
 							<CreationDate>2021-06-22T23:54:09.685</CreationDate>
 							<Notes/>
 							<DeveloperText>Created By</DeveloperText>
-							<Identifier>
-								<uri
-									id="005056A5-1B45-A1EB-A7B6-B0C1D8242320"
-								/>
-							</Identifier>
+							<Identifier/>
 						</TranslatableText>
 					</DisplayName>
 					<ForeignKeyProperties>
@@ -3080,11 +2439,7 @@
 							<CreationDate>2021-06-22T23:54:09.69</CreationDate>
 							<Notes/>
 							<DeveloperText>Last Modified By</DeveloperText>
-							<Identifier>
-								<uri
-									id="005056A5-1B45-A1EB-A7B6-B0C1D821A320"
-								/>
-							</Identifier>
+							<Identifier/>
 						</TranslatableText>
 					</DisplayName>
 					<ForeignKeyProperties>
@@ -3118,10 +2473,65 @@
 						/>
 					</Target>
 				</Relationship>
+				<Relationship
+					type="com.cordys.entity.core.structure.relationship.Relationship"
+					typeVersion="17A97EEB-DDB4-477D-8C9F-C9238015F2A2"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-AAE8-6A34408A89E2">
+					<DocumentID>6F5028FD-9D69-3316-9CA2-017CE8A2BA20</DocumentID>
+					<Name>ReadBy</Name>
+					<Description>ReadBy</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2024-01-05T08:18:41.977</CreationDate>
+					<Notes/>
+					<ExposeForReuse>false</ExposeForReuse>
+					<HasFK>false</HasFK>
+					<MaxCardinality>-1</MaxCardinality>
+					<MinCardinality>0</MinCardinality>
+					<OwnsJoinTable>true</OwnsJoinTable>
+					<RelationshipType>ToPeer</RelationshipType>
+					<RestrictDeleteTarget>false</RestrictDeleteTarget>
+					<BuildingBlock>
+						<uri
+							id="005056A5-1B45-A1EB-B4ED-1E9277432324"
+						/>
+					</BuildingBlock>
+					<DisplayName/>
+					<ForeignKeyProperties>
+						<uri
+							id="81AD3FCE-42A1-3BFE-8175-6A565BC0A0A4"
+						/>
+					</ForeignKeyProperties>
+					<Inverse/>
+					<Original/>
+					<ReferringProperties>
+						<ReferringProperty
+							type="com.cordys.entity.core.structure.relationship.ReferringProperty"
+							RuntimeDocumentID="28DFEB6B-98A5-A1EE-AAE8-6A34408AC9E2">
+							<DocumentID>81AD3FCE-42A1-3BFE-8175-6A565BC0A0A4</DocumentID>
+							<Name>ReadBy_Id</Name>
+							<Description>ReadBy_Id</Description>
+							<CreatedBy>ouathuser1@AWP</CreatedBy>
+							<CreationDate>2024-01-05T08:19:03.408</CreationDate>
+							<Notes/>
+							<NameIsExternallyManaged>false</NameIsExternallyManaged>
+							<TargetProperty>
+								<uri
+									id="F8B156B4-FF8F-11E6-E6F1-BB7823D79319"
+								/>
+							</TargetProperty>
+						</ReferringProperty>
+					</ReferringProperties>
+					<Target>
+						<uri
+							id="F8B156E1-0371-11E6-E9CB-0FBF3334DBBF"
+						/>
+					</Target>
+				</Relationship>
 			</Relationships>
 			<Tracking>
 				<Tracking
 					type="com.cordys.entity.buildingblocks.tracking.Tracking"
+					typeVersion="EEA67FA8-049B-498D-A635-D0A9B48E2456"
 					RuntimeDocumentID="005056A5-1B45-A1EB-B4ED-1E927742E324">
 					<DocumentID>005056A5-1B45-A1EB-B4ED-1E927742A324</DocumentID>
 					<Name>Tracking</Name>
@@ -3130,6 +2540,7 @@
 					<CreationDate>2021-06-22T23:54:09.702</CreationDate>
 					<Notes/>
 					<ParentAlso>false</ParentAlso>
+					<ReadBy>false</ReadBy>
 					<BuildingBlock>
 						<uri
 							id="005056A5-1B45-A1EB-B4ED-1E9277432324"
@@ -3168,6 +2579,7 @@
 					<HistoryLogReferenceName>PCSNoteTemplate_HistoryLog</HistoryLogReferenceName>
 					<OnDeleteAction>0</OnDeleteAction>
 					<RecordAccessEvents>false</RecordAccessEvents>
+					<ShowCumulativeAudit>false</ShowCumulativeAudit>
 					<DisplayName/>
 					<HistoryLog>
 						<uri

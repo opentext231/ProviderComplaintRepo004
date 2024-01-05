@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -3329,7 +3331,7 @@
 							<ValuesDefinition>
 								<DynamicTextEnumSet
 									type="com.cordys.entity.core.typesystem.primitives.dynamicenum.DynamicTextEnumSet"
-									typeVersion="7BEF1B00-6957-4DE4-AFA4-8E3CE755D36E"
+									typeVersion="9059AC43-C4E8-47C1-B5EA-FF4BB6EB9463"
 									RuntimeDocumentID="005056A5-1B45-A1EB-B62E-573DB8936324">
 									<DocumentID>005056A5-1B45-A1EB-B62E-573DB8932324</DocumentID>
 									<Name>Untitled DynamicTextEnumSet</Name>
@@ -3339,6 +3341,7 @@
 									<Notes/>
 									<CacheDuration>5</CacheDuration>
 									<CacheDurationUnit>seconds</CacheDurationUnit>
+									<ContextProperties/>
 									<DisplayNameProvider>
 										<BPMEnumProvider
 											type="com.cordys.bpm.provider.BPMEnumProvider"
@@ -3900,78 +3903,6 @@
 				<Relationship
 					type="com.cordys.entity.core.structure.relationship.Relationship"
 					typeVersion="17A97EEB-DDB4-477D-8C9F-C9238015F2A2"
-					RuntimeDocumentID="005056A5-1B45-A1EB-B121-12C2435FE324">
-					<DocumentID>005056A5-1B45-A1EB-B121-12C2435FA324</DocumentID>
-					<Name>Complaint_ProviderNPI</Name>
-					<Description>Complaint_ProviderNPI</Description>
-					<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-					<CreationDate>2021-06-03T16:15:33.038</CreationDate>
-					<Notes/>
-					<ExposeForReuse>false</ExposeForReuse>
-					<HasFK>true</HasFK>
-					<MaxCardinality>1</MaxCardinality>
-					<MinCardinality>0</MinCardinality>
-					<OwnsJoinTable>false</OwnsJoinTable>
-					<RelationshipType>ToPeer</RelationshipType>
-					<RestrictDeleteTarget>false</RestrictDeleteTarget>
-					<BuildingBlock>
-						<uri
-							id="005056A5-1B45-A1EB-B121-12C2436A6324"
-						/>
-					</BuildingBlock>
-					<DisplayName>
-						<TranslatableText
-							type="com.cordys.translation.TranslatableText"
-							typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
-							RuntimeDocumentID="005056A5-1B45-A1EB-B121-12C2435D2324">
-							<DocumentID>005056A5-1B45-A1EB-B121-12C2435CE324</DocumentID>
-							<Name>005056A5-1B45-A1EB-B121-12C2435CE324</Name>
-							<Description>005056A5-1B45-A1EB-B121-12C2435CE324</Description>
-							<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-							<CreationDate>2021-06-03T16:15:33.038</CreationDate>
-							<Notes/>
-							<DeveloperText>Complaint_ProviderNPI</DeveloperText>
-							<Identifier>
-								<uri
-									id="005056A5-1B45-A1EB-B121-12C2435D6324"
-								/>
-							</Identifier>
-						</TranslatableText>
-					</DisplayName>
-					<ForeignKeyProperties>
-						<uri
-							id="005056A5-1B45-A1EB-B121-12C2435EE324"
-						/>
-					</ForeignKeyProperties>
-					<Inverse/>
-					<Original/>
-					<ReferringProperties>
-						<ReferringProperty
-							type="com.cordys.entity.core.structure.relationship.ReferringProperty"
-							RuntimeDocumentID="005056A5-1B45-A1EB-B121-12C2435F2324">
-							<DocumentID>005056A5-1B45-A1EB-B121-12C2435EE324</DocumentID>
-							<Name>Complaint_ProviderNPI_Id</Name>
-							<Description>Complaint_ProviderNPI_Id</Description>
-							<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-							<CreationDate>2021-06-03T16:15:33.038</CreationDate>
-							<Notes/>
-							<NameIsExternallyManaged>false</NameIsExternallyManaged>
-							<TargetProperty>
-								<uri
-									id="005056A5-1B45-A1EB-A84A-1152692D2320"
-								/>
-							</TargetProperty>
-						</ReferringProperty>
-					</ReferringProperties>
-					<Target>
-						<uri
-							id="005056A5-1B45-A1EB-A84A-115269352320"
-						/>
-					</Target>
-				</Relationship>
-				<Relationship
-					type="com.cordys.entity.core.structure.relationship.Relationship"
-					typeVersion="17A97EEB-DDB4-477D-8C9F-C9238015F2A2"
 					RuntimeDocumentID="005056A5-1B45-A1EB-B121-12C2435CA324">
 					<DocumentID>005056A5-1B45-A1EB-B121-12C2435C6324</DocumentID>
 					<Name>Complaint_ProviderType</Name>
@@ -4110,169 +4041,6 @@
 					<Target>
 						<uri
 							id="005056A5-1B45-A1EB-9EE8-2BAF4B3A631D"
-						/>
-					</Target>
-				</Relationship>
-				<Relationship
-					type="com.cordys.entity.core.structure.relationship.Relationship"
-					typeVersion="17A97EEB-DDB4-477D-8C9F-C9238015F2A2"
-					RuntimeDocumentID="005056A5-1B45-A1EB-B121-12C243536324">
-					<DocumentID>005056A5-1B45-A1EB-B121-12C243532324</DocumentID>
-					<Name>Complaint_HealthPlanAlias</Name>
-					<Description>Complaint_HealthPlanAlias</Description>
-					<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-					<CreationDate>2021-06-03T16:36:31.449</CreationDate>
-					<Notes/>
-					<ExposeForReuse>false</ExposeForReuse>
-					<HasFK>true</HasFK>
-					<MaxCardinality>1</MaxCardinality>
-					<MinCardinality>0</MinCardinality>
-					<OwnsJoinTable>false</OwnsJoinTable>
-					<RelationshipType>ToPeer</RelationshipType>
-					<RestrictDeleteTarget>false</RestrictDeleteTarget>
-					<BuildingBlock>
-						<uri
-							id="005056A5-1B45-A1EB-B121-12C2436A6324"
-						/>
-					</BuildingBlock>
-					<DisplayName>
-						<TranslatableText
-							type="com.cordys.translation.TranslatableText"
-							typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
-							RuntimeDocumentID="005056A5-1B45-A1EB-B122-0388AAE9A324">
-							<DocumentID>005056A5-1B45-A1EB-B122-0388AAE96324</DocumentID>
-							<Name>005056A5-1B45-A1EB-B122-0388AAE96324</Name>
-							<Description>005056A5-1B45-A1EB-B122-0388AAE96324</Description>
-							<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-							<CreationDate>2021-06-03T16:36:31.449</CreationDate>
-							<Notes/>
-							<DeveloperText>Complaint_HealthPlanAlias</DeveloperText>
-							<Identifier>
-								<uri
-									id="005056A5-1B45-A1EB-B122-0388AAE9E324"
-								/>
-							</Identifier>
-						</TranslatableText>
-					</DisplayName>
-					<ForeignKeyProperties>
-						<uri
-							id="005056A5-1B45-A1EB-B121-12C243526324"
-						/>
-						<uri
-							id="005056A5-1B45-A1EB-B122-0388AAEB6324"
-						/>
-					</ForeignKeyProperties>
-					<Inverse/>
-					<Original/>
-					<ReferringProperties>
-						<ReferringProperty
-							type="com.cordys.entity.core.structure.relationship.ReferringProperty"
-							RuntimeDocumentID="005056A5-1B45-A1EB-B121-12C24352A324">
-							<DocumentID>005056A5-1B45-A1EB-B121-12C243526324</DocumentID>
-							<Name>Complaint_HealthPlanAlias_Id</Name>
-							<Description>Complaint_HealthPlanAlias_Id</Description>
-							<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-							<CreationDate>2021-06-03T16:36:31.449</CreationDate>
-							<Notes/>
-							<NameIsExternallyManaged>false</NameIsExternallyManaged>
-							<TargetProperty>
-								<uri
-									id="005056A5-1B45-A1EB-A750-9399D6BCA320"
-								/>
-							</TargetProperty>
-						</ReferringProperty>
-						<ReferringProperty
-							type="com.cordys.entity.core.structure.relationship.ReferringProperty"
-							RuntimeDocumentID="005056A5-1B45-A1EB-B122-0388AAEBA324">
-							<DocumentID>005056A5-1B45-A1EB-B122-0388AAEB6324</DocumentID>
-							<Name>Complaint_HealthPlanAlias_Id1</Name>
-							<Description>Complaint_HealthPlanAlias_Id1</Description>
-							<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-							<CreationDate>2021-06-03T16:36:31.449</CreationDate>
-							<Notes/>
-							<NameIsExternallyManaged>false</NameIsExternallyManaged>
-							<TargetProperty>
-								<uri
-									id="005056A5-1B45-A1EB-A750-9399D6B4A320"
-								/>
-							</TargetProperty>
-						</ReferringProperty>
-					</ReferringProperties>
-					<Target>
-						<uri
-							id="005056A5-1B45-A1EB-A74F-3FE5F127E320"
-						/>
-					</Target>
-				</Relationship>
-				<Relationship
-					type="com.cordys.entity.core.structure.relationship.Relationship"
-					typeVersion="17A97EEB-DDB4-477D-8C9F-C9238015F2A2"
-					RuntimeDocumentID="005056A5-1B45-A1EB-B122-0388AAD7A324">
-					<DocumentID>005056A5-1B45-A1EB-B122-0388AAD76324</DocumentID>
-					<Name>Complaint_RBO</Name>
-					<Description>Complaint_RBO</Description>
-					<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-					<CreationDate>2021-06-03T16:51:49.721</CreationDate>
-					<Notes/>
-					<ExposeForReuse>false</ExposeForReuse>
-					<HasFK>true</HasFK>
-					<MaxCardinality>1</MaxCardinality>
-					<MinCardinality>0</MinCardinality>
-					<OwnsJoinTable>false</OwnsJoinTable>
-					<RelationshipType>ToPeer</RelationshipType>
-					<RestrictDeleteTarget>false</RestrictDeleteTarget>
-					<BuildingBlock>
-						<uri
-							id="005056A5-1B45-A1EB-B121-12C2436A6324"
-						/>
-					</BuildingBlock>
-					<DisplayName>
-						<TranslatableText
-							type="com.cordys.translation.TranslatableText"
-							typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
-							RuntimeDocumentID="005056A5-1B45-A1EB-B122-0388AAD4E324">
-							<DocumentID>005056A5-1B45-A1EB-B122-0388AAD4A324</DocumentID>
-							<Name>005056A5-1B45-A1EB-B122-0388AAD4A324</Name>
-							<Description>005056A5-1B45-A1EB-B122-0388AAD4A324</Description>
-							<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-							<CreationDate>2021-06-03T16:51:49.721</CreationDate>
-							<Notes/>
-							<DeveloperText>Complaint_RBO</DeveloperText>
-							<Identifier>
-								<uri
-									id="005056A5-1B45-A1EB-B122-0388AAD52324"
-								/>
-							</Identifier>
-						</TranslatableText>
-					</DisplayName>
-					<ForeignKeyProperties>
-						<uri
-							id="005056A5-1B45-A1EB-B122-0388AAD6A324"
-						/>
-					</ForeignKeyProperties>
-					<Inverse/>
-					<Original/>
-					<ReferringProperties>
-						<ReferringProperty
-							type="com.cordys.entity.core.structure.relationship.ReferringProperty"
-							RuntimeDocumentID="005056A5-1B45-A1EB-B122-0388AAD6E324">
-							<DocumentID>005056A5-1B45-A1EB-B122-0388AAD6A324</DocumentID>
-							<Name>Complaint_RBO_Id</Name>
-							<Description>Complaint_RBO_Id</Description>
-							<CreatedBy>Henry.Chiu@dmhc.ca.gov</CreatedBy>
-							<CreationDate>2021-06-03T16:51:49.721</CreationDate>
-							<Notes/>
-							<NameIsExternallyManaged>false</NameIsExternallyManaged>
-							<TargetProperty>
-								<uri
-									id="005056A5-1B45-A1EB-A5CA-CE27BB8CE320"
-								/>
-							</TargetProperty>
-						</ReferringProperty>
-					</ReferringProperties>
-					<Target>
-						<uri
-							id="005056A5-1B45-A1EB-A5CA-CE27BB94E320"
 						/>
 					</Target>
 				</Relationship>
@@ -5012,6 +4780,7 @@
 		</RelationshipBuildingBlock>
 		<TrackingBuildingBlock
 			type="com.cordys.entity.buildingblocks.tracking.TrackingBuildingBlock"
+			typeVersion="E71CDA2C-7846-4CDA-BCB3-A75D3AD4A9FE"
 			RuntimeDocumentID="005056A5-1B45-A1EB-B1EB-06FA2639A324">
 			<DocumentID>005056A5-1B45-A1EB-B1EB-06FA26396324</DocumentID>
 			<Name>Tracking</Name>
@@ -5063,11 +4832,7 @@
 							<CreationDate>2021-06-07T16:26:52.452</CreationDate>
 							<Notes/>
 							<DeveloperText>Created Date</DeveloperText>
-							<Identifier>
-								<uri
-									id="005056A5-1B45-A1EB-A9AE-901D4570E320"
-								/>
-							</Identifier>
+							<Identifier/>
 						</TranslatableText>
 					</DisplayName>
 					<OwnedTypeDefinition>
@@ -5129,11 +4894,7 @@
 							<CreationDate>2021-06-07T16:26:52.452</CreationDate>
 							<Notes/>
 							<DeveloperText>Last Modified Date</DeveloperText>
-							<Identifier>
-								<uri
-									id="005056A5-1B45-A1EB-A9AE-901D456E6320"
-								/>
-							</Identifier>
+							<Identifier/>
 						</TranslatableText>
 					</DisplayName>
 					<OwnedTypeDefinition>
@@ -5195,11 +4956,7 @@
 							<CreationDate>2021-06-07T16:26:52.452</CreationDate>
 							<Notes/>
 							<DeveloperText>Created By</DeveloperText>
-							<Identifier>
-								<uri
-									id="005056A5-1B45-A1EB-A9AE-901D45766320"
-								/>
-							</Identifier>
+							<Identifier/>
 						</TranslatableText>
 					</DisplayName>
 					<ForeignKeyProperties>
@@ -5267,11 +5024,7 @@
 							<CreationDate>2021-06-07T16:26:52.452</CreationDate>
 							<Notes/>
 							<DeveloperText>Last Modified By</DeveloperText>
-							<Identifier>
-								<uri
-									id="005056A5-1B45-A1EB-A9AE-901D4573E320"
-								/>
-							</Identifier>
+							<Identifier/>
 						</TranslatableText>
 					</DisplayName>
 					<ForeignKeyProperties>
@@ -5305,10 +5058,65 @@
 						/>
 					</Target>
 				</Relationship>
+				<Relationship
+					type="com.cordys.entity.core.structure.relationship.Relationship"
+					typeVersion="17A97EEB-DDB4-477D-8C9F-C9238015F2A2"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-AAE8-8E0A88C6C9E2">
+					<DocumentID>7116FFEC-60F4-3FE5-8D5D-9F83799F357D</DocumentID>
+					<Name>ReadBy</Name>
+					<Description>ReadBy</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2024-01-05T08:19:03.432</CreationDate>
+					<Notes/>
+					<ExposeForReuse>false</ExposeForReuse>
+					<HasFK>false</HasFK>
+					<MaxCardinality>-1</MaxCardinality>
+					<MinCardinality>0</MinCardinality>
+					<OwnsJoinTable>true</OwnsJoinTable>
+					<RelationshipType>ToPeer</RelationshipType>
+					<RestrictDeleteTarget>false</RestrictDeleteTarget>
+					<BuildingBlock>
+						<uri
+							id="005056A5-1B45-A1EB-B1EB-06FA26396324"
+						/>
+					</BuildingBlock>
+					<DisplayName/>
+					<ForeignKeyProperties>
+						<uri
+							id="E7404F67-F8A5-3B3F-9020-2158D316BE65"
+						/>
+					</ForeignKeyProperties>
+					<Inverse/>
+					<Original/>
+					<ReferringProperties>
+						<ReferringProperty
+							type="com.cordys.entity.core.structure.relationship.ReferringProperty"
+							RuntimeDocumentID="28DFEB6B-98A5-A1EE-AAE8-8E0A88C709E2">
+							<DocumentID>E7404F67-F8A5-3B3F-9020-2158D316BE65</DocumentID>
+							<Name>ReadBy_Id</Name>
+							<Description>ReadBy_Id</Description>
+							<CreatedBy>ouathuser1@AWP</CreatedBy>
+							<CreationDate>2024-01-05T08:18:59.328</CreationDate>
+							<Notes/>
+							<NameIsExternallyManaged>false</NameIsExternallyManaged>
+							<TargetProperty>
+								<uri
+									id="F8B156B4-FF8F-11E6-E6F1-BB7823D79319"
+								/>
+							</TargetProperty>
+						</ReferringProperty>
+					</ReferringProperties>
+					<Target>
+						<uri
+							id="F8B156E1-0371-11E6-E9CB-0FBF3334DBBF"
+						/>
+					</Target>
+				</Relationship>
 			</Relationships>
 			<Tracking>
 				<Tracking
 					type="com.cordys.entity.buildingblocks.tracking.Tracking"
+					typeVersion="EEA67FA8-049B-498D-A635-D0A9B48E2456"
 					RuntimeDocumentID="005056A5-1B45-A1EB-B1EB-06FA26392324">
 					<DocumentID>005056A5-1B45-A1EB-B1EB-06FA2638E324</DocumentID>
 					<Name>Tracking</Name>
@@ -5317,6 +5125,7 @@
 					<CreationDate>2021-06-07T16:26:52.452</CreationDate>
 					<Notes/>
 					<ParentAlso>false</ParentAlso>
+					<ReadBy>false</ReadBy>
 					<BuildingBlock>
 						<uri
 							id="005056A5-1B45-A1EB-B1EB-06FA26396324"
@@ -5327,7 +5136,7 @@
 		</TrackingBuildingBlock>
 		<TaskListBuildingBlock
 			type="com.cordys.entity.buildingblocks.tasklist.TaskListBuildingBlock"
-			typeVersion="1F66C65E-A463-4FB6-B249-3C7DE6293509"
+			typeVersion="FB748954-FAA0-4215-8848-E4A76DBEEC65"
 			RuntimeDocumentID="005056A5-1B45-A1EB-B222-9478A61AA324">
 			<DocumentID>005056A5-1B45-A1EB-B222-9478A61A6324</DocumentID>
 			<Name>TaskList</Name>
@@ -5480,7 +5289,7 @@
 		</TitleBuildingBlock>
 		<EmailBuildingBlock
 			type="com.cordys.entity.buildingblocks.email.EmailBuildingBlock"
-			typeVersion="dff266a5-3514-446a-bce9-e1ee24736978"
+			typeVersion="CC3B6D68-6A37-4A70-B79F-D3F9-13CB329E"
 			RuntimeDocumentID="005056A5-1B45-A1EB-B344-CB31287FE324">
 			<DocumentID>005056A5-1B45-A1EB-B344-CB31287FA324</DocumentID>
 			<Name>Email</Name>
@@ -5491,7 +5300,7 @@
 			<Email>
 				<Email
 					type="com.cordys.entity.buildingblocks.email.Email"
-					typeVersion="70B3859A-6661-405A-915F-79AC52C92B04"
+					typeVersion="B59CF123-2383-49B2-8C3E-D8F323D8F3F8"
 					RuntimeDocumentID="005056A5-1B45-A1EB-B344-CB31287F6324">
 					<DocumentID>005056A5-1B45-A1EB-B344-CB31287F2324</DocumentID>
 					<Name>Email</Name>
@@ -5510,6 +5319,7 @@
 					<EmailConfigurationName></EmailConfigurationName>
 					<EmailMessageFileType>eml</EmailMessageFileType>
 					<SaveLocationOfEmailMessage>Emails/Messages</SaveLocationOfEmailMessage>
+					<UseLoggedInUserInFromAddress>false</UseLoggedInUserInFromAddress>
 					<BuildingBlock>
 						<uri
 							id="005056A5-1B45-A1EB-B344-CB31287FA324"
@@ -5521,11 +5331,18 @@
 					<ContentFolderLocationForIncomingAttachment/>
 					<ContentFolderLocationForSaveEmailTo/>
 					<DisplayName/>
+					<DraftOrForwardEmailAttachmentPreviewLayout/>
+					<EmailAttachmentPreviewLayout/>
 					<EmailConfig>
 						<uri
 							id="005056A5-1B45-A1EB-B344-CB3128816324"
 						/>
 					</EmailConfig>
+					<EmailContentLayout>
+						<uri
+							id="005056A5-1B45-A1EB-B344-DA85E3C36324"
+						/>
+					</EmailContentLayout>
 				</Email>
 			</Email>
 			<Entity>
@@ -5615,6 +5432,7 @@
 					<HistoryLogReferenceName>Complaint_HistoryLog</HistoryLogReferenceName>
 					<OnDeleteAction>0</OnDeleteAction>
 					<RecordAccessEvents>false</RecordAccessEvents>
+					<ShowCumulativeAudit>false</ShowCumulativeAudit>
 					<DisplayName/>
 					<HistoryLog>
 						<uri
